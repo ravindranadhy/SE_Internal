@@ -16,7 +16,7 @@ node {
         echo 'Checking out source code from GitHub'
 
         git branch: 'main',
-            url: 'https://github.com/ravindranadhy/SE_LAB2.git'
+            url: 'https://github.com/ravindranadhy/SE_Internal.git'
     }
 
     stage('Build') {
